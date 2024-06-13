@@ -1,5 +1,6 @@
 package com.anindya.library_management;
 
+import javafx.event.ActionEvent;
 import javafx.scene.control.*;
 
 public class LibraryManagementController
@@ -10,8 +11,6 @@ public class LibraryManagementController
     private Label booknameLabel;
     @javafx.fxml.FXML
     private Label authornameLabel;
-    @javafx.fxml.FXML
-    private Button searchButton;
     @javafx.fxml.FXML
     private Label publicationLabel;
     @javafx.fxml.FXML
@@ -34,9 +33,31 @@ public class LibraryManagementController
     private Label membernameLabel;
     @javafx.fxml.FXML
     private Label totalbookborrowedLabel;
-    @javafx.fxml.FXML
-    private Button borrowedbookButton;
-
+    ToggleGroup tg=new ToggleGroup();
     @javafx.fxml.FXML
     public void initialize() {
-    }}
+        childrenRadiobutton.setToggleGroup(tg);
+        adultRadiobutton.setToggleGroup(tg);
+
+
+
+
+
+    }
+
+    @javafx.fxml.FXML
+    public void searchButton(ActionEvent actionEvent) {
+    }
+
+    @javafx.fxml.FXML
+    public void borrowedbookButton(ActionEvent actionEvent) {
+    }
+
+    @javafx.fxml.FXML
+    public void bookidComboBoxOnAction(ActionEvent actionEvent) {
+    }
+
+    @javafx.fxml.FXML
+    public void membershipidComboBoxOnAction(ActionEvent actionEvent) {
+    }
+}

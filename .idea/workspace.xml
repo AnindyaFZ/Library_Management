@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4b034f7-351a-453e-b64c-5cdf587984c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anindya/library_management/LibraryManagementController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/anindya/library_management/LibraryManagementView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anindya/library_management/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anindya/library_management/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anindya/library_management/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anindya/library_management/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anindya/library_management/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/anindya/library_management/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anindya/library_management/LibraryManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anindya/library_management/LibraryManagementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/anindya/library_management/LibraryManagementView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/anindya/library_management/LibraryManagementView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>

@@ -16,8 +16,8 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <ComboBox fx:id="membershipidComboBox" layoutX="64.0" layoutY="109.0" prefHeight="25.0" prefWidth="179.0" />
-      <ComboBox fx:id="bookidComboBox" layoutX="447.0" layoutY="105.0" prefWidth="150.0" />
+      <ComboBox fx:id="membershipidComboBox" layoutX="64.0" layoutY="109.0" onAction="#membershipidComboBoxOnAction" prefHeight="25.0" prefWidth="179.0" />
+      <ComboBox fx:id="bookidComboBox" layoutX="447.0" layoutY="105.0" onAction="#bookidComboBoxOnAction" prefWidth="150.0" />
       <Label layoutX="65.0" layoutY="80.0" prefHeight="28.0" prefWidth="193.0" text="Membership ID" textAlignment="CENTER">
          <font>
             <Font name="System Bold" size="16.0" />
@@ -44,12 +44,12 @@
       <Label fx:id="publicationLabel" layoutX="566.0" layoutY="223.0" text="Label" />
       <Label fx:id="totalcopyLabel" layoutX="566.0" layoutY="258.0" text="Label" />
       <Label fx:id="totalborrowedLabel" layoutX="566.0" layoutY="293.0" text="Label" />
-      <Button fx:id="borrowedbookButton" layoutX="67.0" layoutY="281.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="185.0" text="Borrowed Book" />
+      <Button layoutX="67.0" layoutY="281.0" mnemonicParsing="false" onAction="#borrowedbookButton" prefHeight="25.0" prefWidth="185.0" text="Borrowed Book" />
       <Label layoutX="73.0" layoutY="388.0" text="Membership Type:" />
       <Label layoutX="73.0" layoutY="419.0" text="Borrowed Book Less Than 3?" />
       <Label layoutX="73.0" layoutY="449.0" text="Total Member:" />
       <Label fx:id="totalmemberLabel" layoutX="155.0" layoutY="449.0" text="Label" />
-      <Button fx:id="searchButton" layoutX="495.0" layoutY="384.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="78.0" text="Search" />
+      <Button layoutX="495.0" layoutY="384.0" mnemonicParsing="false" onAction="#searchButton" prefHeight="65.0" prefWidth="78.0" text="Search" />
       <RadioButton fx:id="adultRadiobutton" layoutX="197.0" layoutY="388.0" mnemonicParsing="false" text="Adult" />
       <RadioButton fx:id="childrenRadiobutton" layoutX="260.0" layoutY="388.0" mnemonicParsing="false" text="Children" />
       <CheckBox fx:id="YesCheckBox" layoutX="232.0" layoutY="419.0" mnemonicParsing="false" text="Yes" />

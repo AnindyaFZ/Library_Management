@@ -17,6 +17,7 @@ public class Member {
         this.member_id=this.generateID();
 
 
+
     }
 
     public String getMember_name() {
@@ -57,6 +58,11 @@ public class Member {
     public void setBookArrayList(Book book) {
         this.bookArrayList.add(book);
     }
+
+
+
+
+
 
     public int generateID(){
         int id;
